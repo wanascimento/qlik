@@ -1,0 +1,6 @@
+Name: Acess to Read Extensions Templates
+Description:
+Resource Filter: Extension_*
+Actions: Read
+Conditions: ((resource.name like "*template*")) and !user.IsAnonymous()
+Context: Both in hub and QMC

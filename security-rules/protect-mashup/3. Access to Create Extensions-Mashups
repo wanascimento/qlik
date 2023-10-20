@@ -1,0 +1,6 @@
+Name: Acess to Create Extensions-Mashups
+Description: Logged users can create extensions/mashups.
+Resource Filter: Extension_*
+Actions: Create
+Conditions: !user.IsAnonymous()
+Context: Both in hub and QMC

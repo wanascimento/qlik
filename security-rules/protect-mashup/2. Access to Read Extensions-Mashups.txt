@@ -1,0 +1,6 @@
+Name: Acess to Read Extensions/Mashups
+Description: Allows all users access to mashups.
+Resource Filter: Extension_*
+Actions: Read
+Conditions: !user.IsAnonymous() or user.IsAnonymous()
+Context: Both in hub and QMC

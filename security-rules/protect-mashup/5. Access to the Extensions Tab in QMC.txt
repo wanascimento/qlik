@@ -1,0 +1,6 @@
+Name: Access to the Extensions Tab in QMC
+Description: Logged in users can view the QMC Extensions tab.
+Resource Filter: QmcSection_Extension
+Actions: Read
+Conditions: !user.IsAnonymous()
+Context: Only in QMC

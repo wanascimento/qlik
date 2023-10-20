@@ -1,0 +1,6 @@
+Name: Acess to Update and Delete Extensions-Mashups
+Description: Only users from the same AD directory can perform the update and delete.
+Resource Filter: Extension_*
+Actions: Update, Delete
+Conditions: ((resource.owner.userDirectory=user.userDirectory))
+Context: Both in hub and QMC

@@ -1,0 +1,1 @@
+This security rule has the objective to release only some Apps to users not the entire Stream.
